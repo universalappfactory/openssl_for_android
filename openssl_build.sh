@@ -50,8 +50,7 @@ sed -i 's/.*-mandroid.*//' Configurations/15-android.conf
 # +   sub shlib {
 #           my \$lib = shift;
 #           return () if \$disabled{shared} || \$lib =~ /\\.a$/;
-
-EOP
+#EOP
 
 if [ "$ANDROID_TARGET_ABI" == "armeabi-v7a" ]
 then
